@@ -34,12 +34,7 @@
         flex-flow: wrap nowrap;
         justify-content: center;
         align-items: center;
-        /* border: 2px solid red; */
         height: 100%;
-    }
-
-    header nav#manu a{
-         
     }
 
     header nav#menu :nth-child(1){
@@ -76,7 +71,7 @@
 
     header nav#sociales{
         width: 30%;
-        /* border: 2px solid red; */
+        height: 100px;
         display: flex;
         flex-flow: wrap nowrap;
         justify-content: flex-end;
@@ -92,10 +87,27 @@
     }
 
     header nav#sociales a i{
-        font-size: 20px;
+        font-size: 30px;
         padding-right: 5px;
         padding: 5px;
     }
+
+    header nav#sociales a i#insta{
+        color: red;
+    }
+
+    header nav#sociales a i#git{
+        color: white;
+    }
+
+    header nav#sociales a i#twitter{
+        color: blue;
+    }
+
+    header nav#sociales a i#what{
+        color: rgb(0, 216, 0);
+    }
+    
 
     header nav#boton{
         width: 30%;

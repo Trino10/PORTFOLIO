@@ -1,0 +1,50 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+
+@media screen and (min-width: 650px) {
+
+    header{
+
+    }
+
+    header nav#manu{
+        display: flex;
+        flex-flow: wrap nowrap;
+        justify-content: space-around;
+    }
+
+    header nav#manu a{
+        display: flex;
+        flex-flow: wrap nowrap;
+        justify-content: space-around;
+    }
+
+    header nav#menu :nth-child(2){
+        display: flex;
+    }
+    header nav#menu :nth-child(3){
+        display: flex;
+    }
+    header nav#menu :nth-child(4){
+        display: flex;
+    }
+    header nav#menu :nth-child(5){
+        display: flex;
+    }
+
+
+    header nav#sociales{
+        display: flex;
+    }
+
+    header nav#boton{
+        display: none;
+    }
+
+
+
+}
