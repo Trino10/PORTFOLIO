@@ -2,6 +2,8 @@
     box-sizing: border-box;
     margin: 0;
     padding: 0;
+    font-family: 'Inter';
+    font-style: normal;
 }
 
 
@@ -19,62 +21,42 @@
         flex-flow: wrap nowrap;
         justify-content: space-between;
         border: 1px solid white;
+        font-style: normal;
+        font-weight: 900;
+        font-size: 15px;
+        text-decoration: none;
     }
 
     header nav#menu :nth-child(2){
         display: flex;
-        font-family: 'Inter';
-        font-style: normal;
-        /* font-weight: 900; */
-        font-size: 15px;
-        /* line-height: 29px; */
-        /* text-align: center; */
-        background: linear-gradient(180deg, #FEFEFF 0%, rgba(254, 254, 255, 0) 100%);
-        -webkit-background-clip: text;
-        -webkit-text-fill-color: transparent;
-        background-clip: text;
-    }
-    header nav#menu :nth-child(3){
-        display: flex;
-        font-family: 'Inter';
         font-style: normal;
         font-weight: 900;
         font-size: 15px;
-        line-height: 29px;
-        text-align: center;
-        background: linear-gradient(180deg, #FEFEFF 0%, rgba(254, 254, 255, 0) 100%);
-        -webkit-background-clip: text;
-        -webkit-text-fill-color: transparent;
-        background-clip: text;
+        text-decoration: none;
+    }
+    header nav#menu :nth-child(3){
+        display: flex;
+        font-style: normal;
+        font-weight: 900;
+        font-size: 15px;
+        text-decoration: none;
     }
 
     
     header nav#menu :nth-child(4){
         display: flex;
-        font-family: 'Inter';
         font-style: normal;
         font-weight: 900;
         font-size: 15px;
-        line-height: 29px;
-        text-align: center;
-        background: linear-gradient(180deg, #FEFEFF 0%, rgba(254, 254, 255, 0) 100%);
-        -webkit-background-clip: text;
-        -webkit-text-fill-color: transparent;
-        background-clip: text;
+        text-decoration: none;
     }
     
     header nav#menu :nth-child(5){
         display: flex;
-        font-family: 'Inter';
         font-style: normal;
         font-weight: 900;
         font-size: 15px;
-        line-height: 29px;
-        text-align: center;
-        background: linear-gradient(180deg, #FEFEFF 0%, rgba(254, 254, 255, 0) 100%);
-        -webkit-background-clip: text;
-        -webkit-text-fill-color: transparent;
-        background-clip: text;
+        text-decoration: none;
     }
     
 
