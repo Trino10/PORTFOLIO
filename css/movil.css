@@ -186,10 +186,67 @@
         flex-flow: row wrap;
         justify-content: center;
         margin-top: 60px;
+        width: 100%;
     }
 
     main section h2{
         color: white;
     }
 
+    main #skills{
+        display: flex;
+        flex-flow: row wrap;
+        justify-content: center;
+        /* background-color: #DE7800; */
+    }
+
+    main #skills h2{
+        width: 100%;
+        text-align: center;
+    }
+
+    main #skills i{
+        color: white;
+        width: 30%;
+        text-align: center;
+        font-size: 60px;
+        padding-top: 20px;
+    }
+
+    main h2#proyectos{
+        color: white;
+        padding-top: 30px;
+        margin-top: 30px;
+    }
+
+    main section#recent{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        /* padding: 275px 0px 23.7961px; */
+        gap: 47.59px;
+        width: 384px;
+        height: 948px;
+        left: calc(50% - 384px/2);
+        top: calc(50% - 948px/2 + 679px);
+
+        background: #4F4F4F;
+        box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+        backdrop-filter: blur(100px);
+        border-radius: 19.0369px;
+    }
+
+    main section#recent figure{
+        border: 1px solid #4F4F4F;
+        box-shadow: 0px 10px 20px #FFFFFF;
+        width: 352px;
+        height: 178px;
+    }
+
+    main section#recent figure img{
+        width: 352px;
+        height: 178px;
+        border-radius: 20px;
+    }
 }
