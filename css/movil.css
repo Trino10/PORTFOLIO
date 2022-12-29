@@ -6,14 +6,6 @@
 
 @media screen and (min-width: 0px) {
 
-    body{
-        /* background-color: black; */
-        background-image: url(../img/foto.png);
-        background-size: cover;
-        /* background-repeat: no-repeat; */
-        background-position: center;
-    }
-
     header{
         display: flex;
         flex-flow: row nowrap;
