@@ -124,6 +124,9 @@
         color: #F1662A;
     }
 
+
+    /* MAIN */
+
     main{
         display: flex;
         flex-flow: row wrap;
