@@ -68,6 +68,41 @@
         display: none;
     }
 
+    /* MAIN */
 
+    main{
+        justify-content: space-between;
+        padding: 30px;
+    }
+
+    main figure{
+        width: 100%;
+        margin: 30px;
+        justify-content: center;
+        text-align: center;
+    }
+
+    main figure h3{
+        width: 100%;
+    }
+
+    main figure h1{
+        width: 100%;
+    }
+
+    main figure h2{
+        width: 100%;
+    }
+
+    main section#skills{
+        /* justify-content: flex-start; */
+        width: 50%;
+    }
+
+    main section#recent{
+        height: 650px;
+        gap: 10px;
+        margin-top: 0px;
+    }
 
 }
