@@ -13,11 +13,10 @@
         display: flex;
         flex-flow: wrap nowrap;
         justify-content: space-around;
-        padding: 20px;
     }
 
     header nav#manu a{
-        display: flex;
+        display: flex;  
         flex-flow: wrap nowrap;
         justify-content: space-between;
         border: 1px solid white;
@@ -25,6 +24,7 @@
         font-weight: 900;
         font-size: 15px;
         text-decoration: none;
+        padding: 5px;
     }
 
     header nav#menu :nth-child(2){
@@ -71,38 +71,38 @@
     /* MAIN */
 
     main{
-        justify-content: space-between;
         padding: 30px;
     }
 
-    main figure{
+    main figure#name{
         width: 100%;
         margin: 30px;
         justify-content: center;
         text-align: center;
     }
 
-    main figure h3{
+    main figure#name h3{
         width: 100%;
     }
 
-    main figure h1{
+    main figure#name h1{
         width: 100%;
     }
 
-    main figure h2{
+    main figure#name h2{
         width: 100%;
     }
 
-    main section#skills{
+    main figure{
         /* justify-content: flex-start; */
-        width: 40%;
+        flex: 4;
     }
 
     main section#recent{
         height: 650px;
         gap: 10px;
         margin-top: 0px;
+        flex: 2;
     }
 
 }
