@@ -105,4 +105,8 @@
         flex: 2;
     }
 
+    main section#recent figure{
+        height: 100px;
+    }
+
 }
