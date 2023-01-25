@@ -101,12 +101,22 @@
     main section#recent{
         height: 650px;
         gap: 10px;
-        margin-top: 0px;
+        margin-top: 10px;
         flex: 2;
     }
 
     main section#recent figure{
-        height: 100px;
+        width: 352px;
+        height: 178px;
     }
+
+    main section#recent figure h3{
+        display: block;
+        text-align: center;
+        padding-top: 15px;
+        color:whitesmoke;
+    }
+
+    
 
 }
